@@ -1,0 +1,46 @@
+.app-container {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  text-align: center;
+}
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.first-name-container {
+  margin-right: 200px;
+}
+.button {
+  color: #dd1264;
+  width: 200px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s, color 0.4s;
+  border: 0px solid #ffffff;
+}
+.button:hover {
+  background-color: #000000;
+  color: #dd1264;
+}
+.name {
+  text-align: center;
+  background-color: #fddddb;
+  color: #000000;
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
